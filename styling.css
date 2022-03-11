@@ -16,3 +16,8 @@ main{
     grid-area: main;
 }
 
+aside{
+    background-color: lightpink;
+    grid-area: aside;
+}
+
