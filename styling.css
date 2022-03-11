@@ -37,3 +37,7 @@ body {
         "footer footer footer";
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
