@@ -10,3 +10,9 @@ nav{
     grid-area: nav;
 }
 
+main{
+    background-color: sandybrown;
+    color: white;
+    grid-area: main;
+}
+
