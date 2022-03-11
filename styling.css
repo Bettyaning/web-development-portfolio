@@ -5,19 +5,25 @@ header {
     grid-area: header;
 }
 
-nav{
+nav {
     background-color: burlywood;
     grid-area: nav;
 }
 
-main{
+main {
     background-color: sandybrown;
     color: white;
     grid-area: main;
 }
 
-aside{
+aside {
     background-color: lightpink;
     grid-area: aside;
+}
+
+footer {
+    background-color: cornflowerblue;
+    color: white;
+    grid-area: footer;
 }
 
