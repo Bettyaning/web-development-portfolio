@@ -1,6 +1,6 @@
 header {
-    background-color: plum;
-    color: white;
+    background-color: #fff;
+    color: #000;
     padding: 20px;
     grid-area: header;
 }
