@@ -8,12 +8,26 @@ header {
 .intro{
     font-family: 'Barlow', sans-serif;
 }
+.mybutton{
+    position: relative;
+    left: 80%;
+    bottom: 40%;
+}
+
+.intro2{
+    font-family: 'Barlow', sans-serif;
+}
+
 
 nav {
     background-color: burlywood;
     grid-area: nav;
 }
 
+.listli{
+    color: #ffff;
+    background-color:#ffff
+}
 main {
     background-color: sandybrown;
     color: white;
