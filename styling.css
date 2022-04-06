@@ -10,7 +10,7 @@ header {
 }
 .mybutton{
     position: relative;
-    left: 80%;
+    left: 85%;
     bottom: 40%;
 }
 
@@ -20,23 +20,24 @@ header {
 
 
 nav {
-    background-color: burlywood;
+    background-color: white;
     grid-area: nav;
+    font-family: 'Barlow', sans-serif;
+    color: white
 }
 
-.listli{
-    color: #ffff;
-    background-color:#ffff
-}
+
 main {
-    background-color: sandybrown;
+    background-color:#EBA3F0 ;
     color: white;
     grid-area: main;
 }
 
 aside {
-    background-color: lightpink;
+    background-color:#0C8075;
     grid-area: aside;
+    color: white;
+    font-family: 'Barlow', sans-serif;
 }
 
 footer {
