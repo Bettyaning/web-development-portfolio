@@ -26,9 +26,12 @@ nav {
     color: white
 }
 
+nav > ul > li > a{
+    color: black;
+}
 
 main {
-    background-color:#EBA3F0 ;
+    background-color:#ffff ;
     color: white;
     grid-area: main;
 }
