@@ -1,3 +1,6 @@
+
+
+
 header {
     background-color: #fff;
     color: #000;
@@ -12,6 +15,7 @@ header {
     position: relative;
     left: 85%;
     bottom: 40%;
+    
 }
 
 .intro2{
@@ -23,11 +27,27 @@ nav {
     background-color: white;
     grid-area: nav;
     font-family: 'Barlow', sans-serif;
-    color: white
+    color: white;
 }
 
 nav > ul > li > a{
     color: black;
+    text-decoration: none;
+    line-height: 1;
+    background-image:linear-gradient(to bottom, transparent 50%, #F0A6A3 50%);
+    background-size: 100% 200%;
+}
+
+nav > ul > li > a:hover{
+    background-position: 100% 50%;
+    transition: background-position 200ms cubic-bezier(.58,.91,.78,1.43);
+   /*original code: transition: background-position 200ms ease-in-out (this code is a simple ease in and out but i changed the timing and how it transitions via the cubic bezier ;*/
+   background-repeat: no-repeat;
+}
+
+nav > ul > li > a:hover{
+    background-position: 100% 100%;
+    /*background colour comes in full when cursor hovers over links*/
 }
 
 main {
