@@ -5,6 +5,10 @@ header {
     grid-area: header;
 }
 
+.intro{
+    font-family: 'Barlow', sans-serif;
+}
+
 nav {
     background-color: burlywood;
     grid-area: nav;
