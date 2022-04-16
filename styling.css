@@ -64,9 +64,10 @@ nav > ul> li:hover ul{
 
 
 main{
-    background-color: brown;
-    color: white;
+    background-color: white;
     grid-area: main;
+    color: black ;
+    background: url(/images/131375-abstract-grey-and-white-low-poly-background-design-vector-graphic.jpg);
 }
 
 aside{
