@@ -36,11 +36,7 @@ header {
 }
 .mybutton{
     float: right;
-    left: 85%;
-    bottom: 40%;
-    position: absolute;
-    right: 0;
-    display: inline;
+
 }
 
 
