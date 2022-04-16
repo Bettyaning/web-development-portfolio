@@ -1,4 +1,4 @@
-@media only screen and (min-width:480px) and (max-width:639px){
+@media only screen and (min-width:480px) and (max-width:1000px){
 }
 /* css only applies to a screen with min and max width above*/
 
@@ -10,7 +10,7 @@ header{
 }
 
 nav{
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(221, 141, 141);
     color: white;
     grid-area: nav;
 }

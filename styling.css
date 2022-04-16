@@ -4,7 +4,9 @@ header{
     padding: 20px;
     grid-area: header
 }
-
+.logo{
+    cursor: pointer;
+}
 nav{
     background-color: rgb(185, 185, 185);
     color: white;
@@ -67,7 +69,7 @@ main{
     background-color: white;
     grid-area: main;
     color: black ;
-    background: url(/images/131375-abstract-grey-and-white-low-poly-background-design-vector-graphic.jpg);
+    background-image: url(/images/backgtoundforwebsite.png);
 }
 
 aside{
