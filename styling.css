@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(images/background2.png);
+    background-image: url(images/white-background.png);
 
 }
 
@@ -180,13 +180,63 @@ nav > input:checked ~ .menu {
 
     }
 }
-/*
+main > p{
+    padding: 10em;
+    color: white;
+    background-color: pink;
+    align-items: center;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typewriter{
+    width: 100ch;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+/*apple like animation*/
+
+
+
 img{
     width: 15em;
     height: 6em;
     
 }
-
+.placeholder{
+    width: 30em;
+    max-height: 60em;
+}
 /* GO BACK TO FIRST
 body > header > .logo > ul > li {
     
