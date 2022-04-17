@@ -234,8 +234,65 @@ img{
     
 }
 .placeholder{
-    width: 30em;
-    max-height: 60em;
+   background-color: pink;
+   color: white;
+   display: block;
+   float: left;
+   width: 50%;
+   height: 100vh;
+   flex-direction: column;
+
+}
+.placeholder-repeat{
+    background-color: rgb(223, 119, 223);
+    color: white;
+    display: block;
+    width: 50%;
+    float: left;
+    display: block;
+    height: 100vh;
+    flex-direction: column;
+}
+.placeholder img{
+    height: 700px;
+    width: 500px;
+}
+
+.placeholder-repeat img{
+    height: 400px;
+    width: 250px;
+}
+
+main > h1{
+    text-align: center;
+    font-family: "Barlow', sans-serif";
+    padding:30px;
+}
+
+main > h2{
+    text-align: center;
+    font-family: "Barlow', sans-serif";
+}
+
+.box{
+    background-color: pink;
+    padding:100px;
+    margin: 100px;
+    color: white;
+}
+
+.in-box{
+align-items: center;
+}
+
+main > input{
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+main > input{
+    width: 240px;
+    display: inline-block;
 }
 /* GO BACK TO FIRST
 body > header > .logo > ul > li {
