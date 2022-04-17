@@ -79,6 +79,8 @@ ul > li > a.active::before{
 
 }
 
+/*adding hamburger icon*/
+
  .wrapper > .navbar > .section{
     width: calc(100% - 225px);
     margin-left: 225px;
@@ -91,4 +93,24 @@ ul > li > a.active::before{
     display: flex;
     align-items: center;
     padding: 0 30px;
+}
+
+/*manually creating hamburger icon*/
+.shownav{
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+    border-radius: 0.1em;
+    align-items: center;
+}
+
+.shownav::before{
+content: '';
+position: absolute;
+width: 1.25em;
+margin-top: 0.3em;
+border-top: 0.2em solid black;
+align-items: center;
 }
