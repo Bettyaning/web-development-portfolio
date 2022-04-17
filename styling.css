@@ -284,7 +284,10 @@ main > h2{
 }
 
 .in-box{
+    text-align: center;
 align-items: center;
+margin: 10px;
+padding: 10px;
 }
 
 main > input{
@@ -305,6 +308,7 @@ main > input{
     font-family: "Barlow', sans-serif";
 
 }
+
 /* GO BACK TO FIRST
 body > header > .logo > ul > li {
     
