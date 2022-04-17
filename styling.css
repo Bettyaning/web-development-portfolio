@@ -56,7 +56,39 @@ ul > li > a{
     display: block;
     padding: 13px 30px;
     border-bottom: 1px solid white;
+    border-bottom-right-radius: 30px;
     color: white;
     font-size: 16px;
     position: relative;
+    font-family:'Barlow', sans-serif ;
+}
+
+/*link hover*/
+
+ul > li > a:hover,
+ul > li > a.active{
+color: grey;
+background-color: white;
+border-right: 2px solid grey;
+
+}
+
+ul > li > a:hover::before,
+ul > li > a.active::before{
+    display: block;
+
+}
+
+ .wrapper > .navbar > .section{
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.section > .top_navbar{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
 }
