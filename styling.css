@@ -1,14 +1,97 @@
 
 
 *{
-    list-style: none;
-    text-decoration: none;
+    font-family: "Barlow', sans-serif";
     margin: 0;
-    padding: 0.5em;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background2.png);
+}
+
+header{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 0 25px;
+    transition: 0.3s;
+}
+.logo a{
+    display: block;
+}
+
+.logo a img{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-family:"Barlow', sans-serif" ;
+    display: block;
+    padding: 40px 25px;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+
+ul > li > a:hover,
+ul > li > a.active{
+color: grey;
+background-color: white;
+border-right: 2px solid grey;
+}
+
+ul > li > a:hover{
+    padding: 35px 25px 45px 25px;
+}
+
+ul > li > a:hover::before,
+ul > li > a.active::before{
+    display: block;
+}
+/*
+img{
+    width: 15em;
+    height: 6em;
     
 }
 
+/* GO BACK TO FIRST
+body > header > .logo > ul > li {
+    
+}
+
+
+
+/*
 body{
     background-color: rgb(238, 228, 228);
 }
@@ -64,7 +147,7 @@ ul > li > a{
     font-family:'Barlow', sans-serif ;
 }
 
-/*link hover*/
+/*link hover
 
 ul > li > a:hover,
 ul > li > a.active{
@@ -80,14 +163,14 @@ ul > li > a.active::before{
 
 }
 
-/*adding hamburger icon*/
+/*adding hamburger icon
 
  .wrapper > .navbar > .section{
     width: calc(100% - 225px);
     margin-left: 225px;
     transition: all 0.5s ease;
 }
-
+/*
 .section > .top_navbar{
     background-color: grey;
     height: 50px;
@@ -96,7 +179,7 @@ ul > li > a.active::before{
     padding: 0 30px;
 }
 
-/*manually creating hamburger icon*/
+/*manually creating hamburger icon
 body{
     display: grid;
     justify-content:center ;
@@ -104,4 +187,4 @@ body{
     height: 100vh;
     background-image: url(./images/background.png);
 }
-
+*/
