@@ -267,11 +267,13 @@ main > h1{
     text-align: center;
     font-family: "Barlow', sans-serif";
     padding:30px;
+    color: grey;
 }
 
 main > h2{
     text-align: center;
     font-family: "Barlow', sans-serif";
+    color: grey;
 }
 
 .box{
@@ -293,6 +295,15 @@ main > input{
 main > input{
     width: 240px;
     display: inline-block;
+}
+
+.reportbox{
+    background-color: white;
+    color: rgb(126, 118, 118);
+    padding: 10px;
+    margin: 10px;
+    font-family: "Barlow', sans-serif";
+
 }
 /* GO BACK TO FIRST
 body > header > .logo > ul > li {
