@@ -10,71 +10,45 @@
     <title>Elizabeth's portfolio</title>
     <!--stylesheets for tablet, mobile and desktop-->
     <link rel="stylesheet" href="styling.css" />
-    <link rel="stylesheet" href="mobile.css"/>
+    <link rel="stylesheet" href="mobile.cs"/>
     <link rel="stylesheet" href="menu.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet"/>
 </head>
-
 <body>
-    <header>
-        <img src="images/Screenshot 2022-04-07 at 02.49.46.png" class="logo">
-        <div class="wrapper"> 
-        <div class="intro">
-            <h1>Welcome to Elizabeth's portfolio website</h1> 
-        </div>
-        </div>
-
-    
-        
-        <div class="mybutton">
-            <input type="text" name="yourinput" placeholder="Seacrh" />
-            <input type="submit" value="Search" name="submit" />
+    <!--navigation bar on the side-->
+    <div class="wrapper">
+    <div class="navbar">
+        <div class="profile">
+            <img src="./images/NSW_2004.png" alt="profile image">
+            <h3>Elizabeth Amponsah</h3>
+            <p>Web designer</p>
         </div>
 
-            <div class="intro2">
-            <p>i will add a some information and images below here with a navigation menu as well as a footer</p>
-            </div>
-
-            
-
-    </header>
-    
-    
-    <nav>
-        
-        <ul>
-            <li class="shownavv">
-                <a href="#">portfolio</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Site Report</a>
-            </li>
-        </ul>
-    </nav>
-   
+        <!--menu items-->
+        <!-- using span for inline text-->
         
         
-    
-
-    <main>
-        <p>this is where i will input pictures animations, interactive buttions, about etc.</p>
-
+            <ul>
+                <li>
+                    <a href="#">portfolio</a>
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                    <span class="icon"><i class='fas fa-home'></i></span>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                    <span class="icon"><i class='fas fa-address-card'></i></span>
+                </li>
+                <li>
+                    <a href="#">Site Report</a>
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                </li>
+            </ul>
+        
        
-        <img src="images/NSW_2102.jpg" alt="hairshoot" style=width:500px;>
-    </main>
-
-    <aside>
-        Right hand side
-    </aside>
-    <footer>
-        <p>  Copyright &copy; Aning-Amponsah 2022  </p>
-    </footer>
+    
+    </div>
+    </div>
 </body>
-
-</html>
