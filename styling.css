@@ -308,7 +308,13 @@ main > input{
     font-family: "Barlow', sans-serif";
 
 }
-
+.valid-image > img{
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* GO BACK TO FIRST
 body > header > .logo > ul > li {
     
